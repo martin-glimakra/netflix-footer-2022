@@ -4,9 +4,10 @@
 
 .container {
     display: flex;
+    margin-top: 30px;
 }
 
-.container div {
+.container ul {
     flex: 1;
 }
 
@@ -16,18 +17,35 @@
 
 }
 
-.container div div {
-    background-color: aquamarine;
+.container ul li {
     margin: 10px;
     margin-left: 0px;
 }
 
 .language-select-container {
-    background-color: firebrick;
-    border: 10px solid forestgreen;
-    width: 100px;
+    border: 10px solid grey;
+    width: 150px;
+    margin-top: 30px;
 }
 
 .icon {
     width: 12px;
+}
+
+select {
+    padding: 15px;
+}
+
+.netlix-sverige-text {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: black;
+    color: grey;
+    border-top: 20px solid grey;
+}
+
+.questions {
+    padding-top: 50px;
 }
