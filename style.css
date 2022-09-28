@@ -1,0 +1,33 @@
+/* div {
+    border: 3px solid blue;
+} */
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+}
+
+.footer-content-container {
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.container div div {
+    background-color: aquamarine;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+.language-select-container {
+    background-color: firebrick;
+    border: 10px solid forestgreen;
+    width: 100px;
+}
+
+.icon {
+    width: 12px;
+}
